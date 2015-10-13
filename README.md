@@ -1,10 +1,12 @@
-Module for choose country, region and city
+Yii module for choose country, region and city
 
-Uses
+###Uses###
 
-1. Extract the contents of the archive into a `modules/residence` folder.
+1) Extract the contents of the archive into a `modules/residence` folder.
 
-2. Add into config:
+2) Import to your database three dumps from the `dump_table` folder
+
+3) Add into config:
 
 ```
 ...
@@ -13,7 +15,7 @@ Uses
 ]
 ```
 
-3. Add to the page:
+4) Add to the page:
 
 ```
 $this->widget('residence.widget.Choose',array(
