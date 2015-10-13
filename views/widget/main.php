@@ -9,7 +9,7 @@
  * @var Regions[] $city
  * @var City[] $region
  */
-$updateUrl = Yii::app()->createUrl('/ChoiceResidence/ChoiceResidence/residence');
+$updateUrl = Yii::app()->createUrl('/residence/residence/residence');
 ?>
     <div class="choose-city-widget">
         <?

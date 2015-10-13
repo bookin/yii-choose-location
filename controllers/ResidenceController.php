@@ -41,7 +41,7 @@ class ChoiceResidenceController extends CController
                 $data = CHtml::listData($cities, 'id_city', 'city_name_ru');
                 $empty = 'Select city';
             }
-            $url = $this->createUrl('/ChoiceResidence/ChoiceResidence/residence');
+            $url = $this->createUrl('/residence/residence/residence');
 
             $name = $who_model;
             if($model && $model instanceof CActiveRecord && isset($model->$who_model)){
@@ -56,7 +56,7 @@ class ChoiceResidenceController extends CController
                 $label = Yii::t('choose-city', $who_model);
             }
 
-            $this->renderPartial('ChoiceResidence.views.widget._select_block',[
+            $this->renderPartial('residence.views.widget._select_block',[
                 'attribute'=>$who_model,
                 'label'=>$label,
                 'name'=>$name,

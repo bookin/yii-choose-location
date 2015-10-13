@@ -1,5 +1,5 @@
 <?php
-Yii::import('application.modules.ChoiceResidence.models.*');
+Yii::import('application.modules.residence.models.*');
 
 /**
  * Class ChooseWidget
@@ -14,7 +14,7 @@ class Choose extends CWidget
     public $prefix='';
 
     public function getViewPath($checkTheme=false){
-        return Yii::getPathOfAlias('ChoiceResidence.views.widget');
+        return Yii::getPathOfAlias('residence.views.widget');
     }
 
     public function run() {
