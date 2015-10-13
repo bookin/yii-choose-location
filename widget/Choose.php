@@ -7,7 +7,7 @@ Yii::import('application.modules.ChoiceResidence.models.*');
  * @property $title string
  * @property $prefix string
  */
-class ChooseWidget extends CWidget
+class Choose extends CWidget
 {
     public $model=[];
     public $title='';
