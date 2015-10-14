@@ -116,3 +116,6 @@ public function setSavedCity($city)
     $this->_cities = $city;
 }
 ```
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bookin/yii-choose-location/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
